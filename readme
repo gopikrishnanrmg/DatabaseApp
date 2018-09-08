@@ -1,0 +1,32 @@
+This program was made on a system with the following specifications:
+System                    : Dell Inspiron-5458
+OS                        : Ubuntu 18.04 Bionic Beaver
+Ram                       : 8GB
+Internal memory           : 1TB
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Prerequisites
+
+node.js v8.10.0
+mongodb v3.6.3
+npm v3.5.2
+npm modules{
+              express
+              body-parser
+              mongodb
+              jade
+              path
+              assert
+           }
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Installation
+
+To install the dependencies and application run the "install.sh" file as "./install.sh" (withtout "") in the terminal.
+Once everything is installed run the file "start.sh" as "./start.sh" (withtout "").
+
+Note: The program can also be started by navigating to the folder via terminal and running "node server.js"(withtout "").
+-----------------------------------------------------------------------------------------------------------------------
+Contact me
+
+email: gopikrishnan.rmg@gmail.com
+phone: 8075128526
+-----------------------------------------------------------------------------------------------------------------------------------------------------

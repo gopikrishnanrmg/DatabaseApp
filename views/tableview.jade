@@ -1,0 +1,21 @@
+block content
+ h1= title
+ p Table View
+ -var userlist = users
+ div
+   table.table.table-hover
+   table(border='1')
+    thead
+      tr: th Users
+    tbody
+      tr
+        td='E.ID'
+        td='Name'
+        td='Designation'
+        td='Manger'
+      each user in users
+        tr
+          td=user.eid
+          td=user.name
+          td=user.des
+          td=user.man
